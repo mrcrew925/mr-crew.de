@@ -388,3 +388,483 @@
 </div>
 </footer>
 </body></html>
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="de"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Impressum | MR-CREW Facility Management</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700;800;900&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "on-tertiary-container": "#fdfdfd",
+              "on-tertiary": "#ffffff",
+              "tertiary-fixed-dim": "#c6c6c7",
+              "surface-variant": "#e4e2e1",
+              "on-secondary-fixed": "#1b1c1c",
+              "inverse-primary": "#a1c9ff",
+              "secondary": "#5f5e5e",
+              "on-primary-fixed": "#001c37",
+              "on-secondary-fixed-variant": "#474746",
+              "surface-container-high": "#eae8e7",
+              "secondary-fixed": "#e5e2e1",
+              "surface-container-lowest": "#ffffff",
+              "secondary-fixed-dim": "#c8c6c5",
+              "surface-container-low": "#f6f3f2",
+              "surface-container": "#f0eded",
+              "on-primary-fixed-variant": "#00487f",
+              "surface-container-highest": "#e4e2e1",
+              "on-secondary": "#ffffff",
+              "on-surface": "#1b1c1c",
+              "tertiary-container": "#737575",
+              "surface-tint": "#0061a7",
+              "on-tertiary-fixed-variant": "#454747",
+              "surface-dim": "#dcd9d9",
+              "secondary-container": "#e2dfde",
+              "outline": "#717783",
+              "on-tertiary-fixed": "#1a1c1c",
+              "on-error": "#ffffff",
+              "inverse-surface": "#303030",
+              "on-primary": "#ffffff",
+              "on-background": "#1b1c1c",
+              "primary-fixed-dim": "#a1c9ff",
+              "on-secondary-container": "#636262",
+              "outline-variant": "#c0c7d3",
+              "primary-container": "#0077cc",
+              "surface-bright": "#fbf9f8",
+              "primary-fixed": "#d2e4ff",
+              "tertiary-fixed": "#e2e2e2",
+              "background": "#fbf9f8",
+              "on-primary-container": "#fdfcff",
+              "error": "#ba1a1a",
+              "inverse-on-surface": "#f3f0f0",
+              "surface": "#fbf9f8",
+              "on-error-container": "#93000a",
+              "on-surface-variant": "#404752",
+              "tertiary": "#5b5c5d",
+              "primary": "#005ea3",
+              "error-container": "#ffdad6"
+            },
+            fontFamily: {
+              "headline": ["Work Sans"],
+              "body": ["Inter"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+      .blue-blueprint-bg {
+        background-image: linear-gradient(to right, rgba(192, 199, 211, 0.1) 1px, transparent 1px),
+                          linear-gradient(to bottom, rgba(192, 199, 211, 0.1) 1px, transparent 1px);
+        background-size: 40px 40px;
+      }
+    </style>
+</head>
+<body class="bg-surface font-body text-on-surface antialiased">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-white/80 dark:bg-stone-900/80 backdrop-blur-md shadow-sm dark:shadow-none font-['Work_Sans'] font-medium antialiased">
+<div class="flex justify-between items-center px-8 py-4 max-w-7xl mx-auto">
+<div class="flex items-center gap-4">
+<img alt="MR-CREW Logo" class="h-10 w-auto" data-alt="high-contrast minimalist black and white professional corporate logo for facility management company MR-CREW" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD8XiCbfHnrGCZFSpzU4Busy19nqPXEB-FoCu1ayAmJZX57IwDcBsF_dqFEob2VyhW6GCiXd8NKUja_McYXJhv2OZ2IZaBNoZL8U5LruJitcZAfEXxJqY5I2p2zMylFGKkRKPxTfUmu97Ur4UjNCbm2S6vCiw13UHrLT0VhgWvDbc-j0nRWQk8stVMwPWQ8Mx0-YcGNvXRvBwubBX-CLXrXcm6v8dMt7s4mlcKsVdfZfotjpSTjLIwk3IoG97RRggw-tDDU0-ONOJk"/>
+<span class="text-2xl font-black tracking-tighter text-stone-900 dark:text-stone-50 uppercase">MR-CREW</span>
+</div>
+<div class="hidden md:flex gap-8">
+<a class="text-stone-600 dark:text-stone-400 hover:text-blue-600 dark:hover:text-blue-300 transition-colors" href="#">Home</a>
+<a class="text-stone-600 dark:text-stone-400 hover:text-blue-600 dark:hover:text-blue-300 transition-colors" href="#">Services</a>
+<a class="text-stone-600 dark:text-stone-400 hover:text-blue-600 dark:hover:text-blue-300 transition-colors" href="#">Contact</a>
+</div>
+<div class="flex items-center">
+<button class="bg-gradient-to-br from-primary to-primary-container text-on-primary px-6 py-2.5 rounded hover:opacity-80 transition-opacity duration-300 font-headline font-bold text-sm tracking-tight active:scale-95 duration-150">
+                    Get a Quote
+                </button>
+</div>
+</div>
+</nav>
+<main class="pt-32 pb-24 min-h-screen relative overflow-hidden">
+<!-- Background Branding Watermark -->
+<div class="absolute -top-20 -right-20 opacity-[0.03] pointer-events-none select-none">
+<span class="text-[20rem] font-black tracking-tighter uppercase">CREW</span>
+</div>
+<div class="max-w-7xl mx-auto px-8 relative z-10">
+<!-- Hero Header -->
+<div class="mb-20">
+<span class="font-label uppercase tracking-widest text-primary font-semibold text-xs mb-4 block">Rechtliche Hinweise</span>
+<h1 class="font-headline text-6xl md:text-7xl font-black text-on-surface tracking-tighter leading-none mb-8">
+                    Impressum
+                </h1>
+<div class="w-24 h-2 bg-primary"></div>
+</div>
+<!-- Content Grid: Asymmetric Layout -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+<!-- Main Legal Columns -->
+<div class="lg:col-span-8 space-y-20">
+<!-- Section: TMG -->
+<section class="p-12 bg-surface-container-low relative group">
+<div class="absolute top-0 left-0 w-1 h-full bg-primary opacity-20 group-hover:opacity-100 transition-opacity"></div>
+<h2 class="font-headline text-3xl font-extrabold mb-8 tracking-tight">Angaben gemäß § 5 TMG</h2>
+<div class="space-y-6 text-lg leading-relaxed text-on-surface-variant">
+<div>
+<p class="font-label text-xs uppercase text-secondary font-bold tracking-widest mb-1">Inhaber</p>
+<p class="text-on-surface font-semibold text-xl">Sadiye Kader Roncevic</p>
+</div>
+<div>
+<p class="font-label text-xs uppercase text-secondary font-bold tracking-widest mb-1">Anschrift</p>
+<p class="text-on-surface">Ginsterweg 5<br/>32049 Herford</p>
+</div>
+</div>
+</section>
+<!-- Section: Kontakt -->
+<section class="grid grid-cols-1 md:grid-cols-2 gap-px bg-outline-variant/15">
+<div class="p-12 bg-surface-container-high">
+<h2 class="font-headline text-2xl font-extrabold mb-6 tracking-tight">Kontakt</h2>
+<div class="space-y-4">
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-primary" data-icon="call">call</span>
+<div>
+<p class="font-label text-xs uppercase text-secondary font-bold tracking-widest">Telefon</p>
+<p class="text-on-surface text-lg">05221-7612509</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-primary" data-icon="mail">mail</span>
+<div>
+<p class="font-label text-xs uppercase text-secondary font-bold tracking-widest">E-Mail</p>
+<p class="text-on-surface text-lg">info@mr-crew.de</p>
+</div>
+</div>
+</div>
+</div>
+<div class="p-12 bg-surface-container-highest flex flex-col justify-end">
+<p class="text-on-surface-variant italic mb-4">"Präzision in jeder Facette des Facility Managements."</p>
+<span class="font-label text-xs font-bold uppercase tracking-tighter text-primary">MR-CREW Standards</span>
+</div>
+</section>
+<!-- Section: Verantwortlich -->
+<section class="p-12 bg-surface-container-low border-l-4 border-primary/10">
+<h2 class="font-headline text-2xl font-extrabold mb-6 tracking-tight">Verantwortlich für den Inhalt</h2>
+<p class="font-label text-xs uppercase text-secondary font-bold tracking-widest mb-2">nach § 55 Abs. 2 RStV</p>
+<p class="text-xl font-semibold text-on-surface">Sadiye Kader Roncevic</p>
+<p class="text-on-surface-variant mt-2">Ginsterweg 5, 32049 Herford</p>
+</section>
+</div>
+<!-- Sidebar Metadata -->
+<aside class="lg:col-span-4 space-y-8">
+<div class="bg-primary p-8 text-on-primary">
+<span class="material-symbols-outlined text-4xl mb-6" data-icon="gavel" style="font-variation-settings: 'FILL' 1;">gavel</span>
+<h3 class="font-headline text-2xl font-bold mb-4">Streitbeilegung</h3>
+<p class="text-on-primary-container text-sm leading-relaxed opacity-90">
+                            Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: <a class="underline hover:text-white transition-colors" href="https://ec.europa.eu/consumers/odr">https://ec.europa.eu/consumers/odr</a>.
+                            Unsere E-Mail-Adresse finden Sie oben im Impressum. Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
+                        </p>
+</div>
+<div class="aspect-square bg-surface-container-high flex items-center justify-center relative overflow-hidden group">
+<div class="absolute inset-0 blue-blueprint-bg opacity-30"></div>
+<div class="relative text-center p-8">
+<span class="material-symbols-outlined text-6xl text-outline mb-4" data-icon="location_on">location_on</span>
+<p class="font-headline font-bold text-lg">Zentrale Herford</p>
+<p class="text-secondary text-sm">Präzise Planung vor Ort.</p>
+</div>
+</div>
+</aside>
+</div>
+</div>
+</main>
+<!-- Footer -->
+<footer class="w-full py-12 border-t border-stone-200/15 bg-stone-50 dark:bg-stone-950 font-['Inter'] text-sm tracking-wide">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 px-8 max-w-7xl mx-auto items-start">
+<div>
+<span class="text-lg font-bold text-stone-900 dark:text-stone-100 block mb-4">MR-CREW</span>
+<p class="text-stone-500 max-w-xs leading-relaxed">
+                    Ihr Partner für erstklassiges Facility Management und Logistikdienstleistungen in Herford und Umgebung.
+                </p>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<div class="flex flex-col gap-3">
+<a class="text-stone-500 dark:text-stone-500 hover:text-stone-800 dark:hover:text-stone-200 hover:underline decoration-blue-500/30" href="#">Home</a>
+<a class="text-stone-500 dark:text-stone-500 hover:text-stone-800 dark:hover:text-stone-200 hover:underline decoration-blue-500/30" href="#">Services</a>
+</div>
+<div class="flex flex-col gap-3">
+<a class="text-blue-700 dark:text-blue-400 font-semibold hover:underline decoration-blue-500/30" href="#">Impressum</a>
+<a class="text-stone-500 dark:text-stone-500 hover:text-stone-800 dark:hover:text-stone-200 hover:underline decoration-blue-500/30" href="#">Datenschutz</a>
+</div>
+</div>
+<div class="md:text-right">
+<p class="text-stone-400 mb-2">Kontaktieren Sie uns</p>
+<p class="text-stone-900 dark:text-stone-100 font-bold">05221-7612509</p>
+<p class="text-stone-500 mt-8">© 2024 MR-CREW Facility Management. All rights reserved.</p>
+</div>
+</div>
+</footer>
+</body></html>
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="de"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;900&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "secondary": "#5f5e5e",
+              "on-primary-fixed": "#001c37",
+              "inverse-primary": "#a1c9ff",
+              "surface-container-high": "#eae8e7",
+              "secondary-fixed": "#e5e2e1",
+              "on-secondary-fixed-variant": "#474746",
+              "surface-container-lowest": "#ffffff",
+              "secondary-fixed-dim": "#c8c6c5",
+              "on-tertiary-container": "#fdfdfd",
+              "on-tertiary": "#ffffff",
+              "tertiary-fixed-dim": "#c6c6c7",
+              "surface-variant": "#e4e2e1",
+              "on-secondary-fixed": "#1b1c1c",
+              "surface-container-highest": "#e4e2e1",
+              "on-secondary": "#ffffff",
+              "on-surface": "#1b1c1c",
+              "tertiary-container": "#737575",
+              "surface-tint": "#0061a7",
+              "on-tertiary-fixed-variant": "#454747",
+              "surface-container-low": "#f6f3f2",
+              "surface-container": "#f0eded",
+              "on-primary-fixed-variant": "#00487f",
+              "primary-fixed-dim": "#a1c9ff",
+              "on-secondary-container": "#636262",
+              "primary-container": "#0077cc",
+              "outline-variant": "#c0c7d3",
+              "surface-bright": "#fbf9f8",
+              "primary-fixed": "#d2e4ff",
+              "surface-dim": "#dcd9d9",
+              "secondary-container": "#e2dfde",
+              "outline": "#717783",
+              "on-tertiary-fixed": "#1a1c1c",
+              "on-error": "#ffffff",
+              "inverse-surface": "#303030",
+              "on-background": "#1b1c1c",
+              "on-primary": "#ffffff",
+              "on-error-container": "#93000a",
+              "surface": "#fbf9f8",
+              "tertiary": "#5b5c5d",
+              "on-surface-variant": "#404752",
+              "primary": "#005ea3",
+              "error-container": "#ffdad6",
+              "tertiary-fixed": "#e2e2e2",
+              "background": "#fbf9f8",
+              "error": "#ba1a1a",
+              "on-primary-container": "#fdfcff",
+              "inverse-on-surface": "#f3f0f0"
+            },
+            fontFamily: {
+              "headline": ["Work Sans"],
+              "body": ["Inter"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            vertical-align: middle;
+        }
+        .blueprint-grid {
+            background-image: radial-gradient(circle, #c0c7d3 1px, transparent 1px);
+            background-size: 40px 40px;
+            opacity: 0.1;
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body leading-relaxed">
+<!-- Top Navigation Bar -->
+<header class="fixed top-0 w-full z-50 bg-white/80 dark:bg-stone-900/80 backdrop-blur-md border-b border-stone-200/15 dark:border-stone-700/15 shadow-sm dark:shadow-none">
+<div class="flex justify-between items-center px-6 py-4 max-w-7xl mx-auto">
+<div class="text-2xl font-black tracking-tighter text-[#1b1c1c] dark:text-stone-100 uppercase font-headline">
+                MR-CREW
+            </div>
+<nav class="hidden md:flex items-center gap-8 font-headline font-medium tracking-tight">
+<a class="text-[#5f5e5e] dark:text-stone-400 hover:text-[#1b1c1c] dark:hover:text-stone-100 transition-colors" href="#">Services</a>
+<a class="text-[#5f5e5e] dark:text-stone-400 hover:text-[#1b1c1c] dark:hover:text-stone-100 transition-colors" href="#">Projects</a>
+<a class="text-[#5f5e5e] dark:text-stone-400 hover:text-[#1b1c1c] dark:hover:text-stone-100 transition-colors" href="#">About</a>
+<a class="text-[#5f5e5e] dark:text-stone-400 hover:text-[#1b1c1c] dark:hover:text-stone-100 transition-colors" href="#">Contact</a>
+</nav>
+<button class="bg-primary hover:opacity-80 transition-opacity text-on-primary px-5 py-2 rounded-lg font-headline font-semibold text-sm">
+                Get a Quote
+            </button>
+</div>
+</header>
+<main class="pt-32 pb-24 relative overflow-hidden">
+<!-- Blueprint Background Texture -->
+<div class="absolute inset-0 blueprint-grid pointer-events-none"></div>
+<div class="max-w-7xl mx-auto px-6 relative z-10">
+<!-- Hero Section / Header -->
+<div class="mb-20">
+<span class="label-md uppercase tracking-[0.2em] text-primary font-bold block mb-4">Rechtliches</span>
+<h1 class="font-headline text-5xl md:text-7xl font-black text-on-surface tracking-tighter leading-none mb-6">
+                    Datenschutz-<br/><span class="text-primary">erklärung</span>
+</h1>
+<div class="w-24 h-2 bg-primary mb-8"></div>
+<p class="text-body-lg text-secondary max-w-2xl text-lg italic">
+                    Ihre Privatsphäre ist das Fundament unserer professionellen Zusammenarbeit. Hier erfahren Sie transparent, wie wir mit Ihren Daten bei MR-CREW umgehen.
+                </p>
+</div>
+<!-- Bento Layout for Privacy Content -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+<!-- 1. Datenschutz auf einen Blick (Large Card) -->
+<section class="lg:col-span-8 bg-surface-container-low p-8 md:p-12 rounded-xl relative">
+<div class="flex items-center gap-4 mb-8">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="visibility">visibility</span>
+<h2 class="font-headline text-3xl font-bold tracking-tight">1. Datenschutz auf einen Blick</h2>
+</div>
+<div class="space-y-6 text-on-surface-variant">
+<h3 class="font-headline font-bold text-xl text-on-surface">Allgemeine Hinweise</h3>
+<p>Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten passiert, wenn Sie diese Website besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie persönlich identifiziert werden können.</p>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+<div class="bg-surface-container-lowest p-6 rounded-lg border-l-4 border-primary">
+<h4 class="font-bold mb-2">Datenerfassung</h4>
+<p class="text-sm">Die Datenerfassung auf dieser Website erfolgt durch den Websitebetreiber.</p>
+</div>
+<div class="bg-surface-container-lowest p-6 rounded-lg border-l-4 border-primary">
+<h4 class="font-bold mb-2">Ihre Rechte</h4>
+<p class="text-sm">Sie haben jederzeit das Recht, unentgeltlich Auskunft über Herkunft, Empfänger und Zweck zu erhalten.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Sidebar Content (Responsibility) -->
+<aside class="lg:col-span-4 space-y-8">
+<div class="bg-primary text-on-primary p-8 rounded-xl shadow-xl">
+<span class="material-symbols-outlined mb-4 text-4xl" data-icon="admin_panel_settings">admin_panel_settings</span>
+<h2 class="font-headline text-2xl font-bold mb-4">Verantwortliche Stelle</h2>
+<address class="not-italic space-y-1 opacity-90">
+<p class="font-bold">Sadiye Kader Roncevic</p>
+<p>MR-CREW </p>
+<p>Ginsterweg 5</p>
+<p>32049 Herford</p>
+<p class="pt-4 flex items-center gap-2">
+<span class="material-symbols-outlined text-sm" data-icon="mail">mail</span>
+                                info@mr-crew.de
+                            </p>
+</address>
+</div>
+<div class="bg-surface-container-high p-8 rounded-xl">
+<h3 class="font-headline font-bold mb-4">Aufsichtsbehörde</h3>
+<p class="text-sm text-secondary">
+                            Landesbeauftragte für Datenschutz und Informationsfreiheit Nordrhein-Westfalen.
+                        </p>
+</div>
+</aside>
+<!-- 2. Allgemeine Hinweise & Pflichtinformationen -->
+<section class="lg:col-span-12 bg-white p-8 md:p-12 rounded-xl border border-outline-variant/15">
+<div class="flex items-center gap-4 mb-8">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="info">info</span>
+<h2 class="font-headline text-3xl font-bold tracking-tight">2. Allgemeine Hinweise und Pflichtinformationen</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+<div class="space-y-4">
+<h3 class="font-headline font-bold text-lg">Widerruf Ihrer Einwilligung</h3>
+<p class="text-secondary">Viele Datenverarbeitungsvorgänge sind nur mit Ihrer ausdrücklichen Einwilligung möglich. Sie können eine bereits erteilte Einwilligung jederzeit widerrufen. Dazu reicht eine formlose Mitteilung per E-Mail an uns.</p>
+</div>
+<div class="space-y-4">
+<h3 class="font-headline font-bold text-lg">Beschwerderecht</h3>
+<p class="text-secondary">Im Falle von Datenschutzverstößen steht dem Betroffenen ein Beschwerderecht bei der zuständigen Aufsichtsbehörde zu. Zuständige Aufsichtsbehörde ist der Landesdatenschutzbeauftragte des Bundeslandes.</p>
+</div>
+<div class="space-y-4">
+<h3 class="font-headline font-bold text-lg">SSL- bzw. TLS-Verschlüsselung</h3>
+<p class="text-secondary">Diese Seite nutzt aus Sicherheitsgründen eine SSL- bzw. TLS-Verschlüsselung. Eine verschlüsselte Verbindung erkennen Sie daran, dass die Adresszeile des Browsers von „http://“ auf „https://“ wechselt.</p>
+</div>
+<div class="space-y-4">
+<h3 class="font-headline font-bold text-lg">Recht auf Datenübertragbarkeit</h3>
+<p class="text-secondary">Sie haben das Recht, Daten, die wir auf Grundlage Ihrer Einwilligung oder in Erfüllung eines Vertrags automatisiert verarbeiten, an sich oder an einen Dritten aushändigen zu lassen.</p>
+</div>
+</div>
+</section>
+<!-- 3. Datenerfassung (The Architectural Grid) -->
+<section class="lg:col-span-7 bg-surface-container-low p-8 md:p-12 rounded-xl">
+<div class="flex items-center gap-4 mb-8">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="database">database</span>
+<h2 class="font-headline text-3xl font-bold tracking-tight">3. Datenerfassung auf dieser Website</h2>
+</div>
+<div class="space-y-8">
+<div class="relative pl-8 border-l-2 border-primary/30">
+<h3 class="font-headline font-bold text-xl mb-2">Cookies</h3>
+<p class="text-secondary text-sm leading-relaxed">Unsere Internetseiten verwenden so genannte „Cookies“. Cookies sind kleine Textdateien und richten auf Ihrem Endgerät keinen Schaden an. Sie dienen dazu, unser Angebot nutzerfreundlicher, effektiver und sicherer zu machen.</p>
+</div>
+<div class="relative pl-8 border-l-2 border-primary/30">
+<h3 class="font-headline font-bold text-xl mb-2">Server-Log-Dateien</h3>
+<p class="text-secondary text-sm leading-relaxed">Der Provider der Seiten erhebt und speichert automatisch Informationen in so genannten Server-Log-Dateien, die Ihr Browser automatisch an uns übermittelt. Dies sind: Browsertyp, Betriebssystem, Referrer URL, Hostname, Uhrzeit.</p>
+</div>
+<div class="relative pl-8 border-l-2 border-primary/30">
+<h3 class="font-headline font-bold text-xl mb-2">Kontaktformular</h3>
+<p class="text-secondary text-sm leading-relaxed">Wenn Sie uns per Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem Anfrageformular inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage gespeichert.</p>
+</div>
+</div>
+</section>
+<!-- Visual Anchor -->
+<div class="lg:col-span-5 h-[400px] lg:h-auto rounded-xl overflow-hidden relative group">
+<img alt="Moderne Architektur Glasfassade" class="w-full h-full object-cover grayscale brightness-75 group-hover:grayscale-0 transition-all duration-700" data-alt="Close-up of a high-end modern glass building facade reflecting the blue sky, architectural precision with clean vertical lines and steel elements" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAZYkfiofTwCEgoRS6uIiD2mllAT3CV01CLiLQapCZamySL7NEIeyGye7qr6u4Xnsl_SgxGLE6YgUl0Via-FHB-gtwAfrVEJd0esDHf5to3uXkfgDjXlCbS3GjnQKix2YbuHaICsr2pSsRKWPfT6skPEHlsPyDK0VF3YyDLA_rTdRxqUNbN0_UNguhGIbELuMyKd8fvF7xsJxxvPFy2GZcU8fIuZjPwEzCXNFjLLObEvhgncpO-3m12dLo5z6QS71e4M9mCYnbrkKg"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent flex items-end p-8">
+<p class="text-on-primary font-headline font-bold text-xl tracking-tight italic">"Präzision in jedem Detail – auch beim Schutz Ihrer Daten."</p>
+</div>
+</div>
+<!-- 4. & 5. Social Media & Tools -->
+<section class="lg:col-span-12 grid grid-cols-1 md:grid-cols-2 gap-8">
+<div class="bg-surface-container-highest p-8 rounded-xl">
+<div class="flex items-center gap-4 mb-6">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="share">share</span>
+<h2 class="font-headline text-2xl font-bold tracking-tight">4. Soziale Medien</h2>
+</div>
+<p class="text-secondary text-sm">
+                            Wir setzen auf unserer Website keine Social-Media-Plugins direkt ein. Sofern Verlinkungen zu unseren sozialen Profilen bestehen, werden keine Daten beim bloßen Seitenaufruf übertragen. Erst beim Klick auf den Button verlassen Sie unsere Umgebung.
+                        </p>
+</div>
+<div class="bg-surface-container-highest p-8 rounded-xl">
+<div class="flex items-center gap-4 mb-6">
+<span class="material-symbols-outlined text-primary text-3xl" data-icon="analytics">analytics</span>
+<h2 class="font-headline text-2xl font-bold tracking-tight">5. Analyse-Tools und Werbung</h2>
+</div>
+<p class="text-secondary text-sm">
+                            Wir verzichten weitgehend auf Tracking-Tools von Drittanbietern. Sollten wir punktuell Analyse-Tools einsetzen (z.B. zur Performance-Messung), erfolgt dies ausschließlich nach Ihrer expliziten Einwilligung im Cookie-Banner.
+                        </p>
+</div>
+</section>
+</div>
+</div>
+</main>
+<!-- Footer Component -->
+<footer class="bg-stone-100 dark:bg-stone-950 w-full py-12 border-t border-stone-200 dark:border-stone-800">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 px-8 max-w-7xl mx-auto">
+<div class="space-y-4">
+<div class="text-lg font-bold text-[#1b1c1c] dark:text-stone-200 font-headline uppercase">MR-CREW</div>
+<p class="text-[#5f5e5e] dark:text-stone-500 font-body text-sm tracking-wide max-w-sm">
+                    © 2024 MR-CREW Facility Management. All rights reserved. Precision in Motion.
+                </p>
+</div>
+<div class="flex flex-wrap gap-x-8 gap-y-4 items-center md:justify-end">
+<a class="text-[#5f5e5e] dark:text-stone-500 hover:text-[#005ea3] text-sm font-label transition-colors" href="#">Impressum</a>
+<a class="text-[#005ea3] underline text-sm font-label" href="#">Datenschutz</a>
+<a class="text-[#5f5e5e] dark:text-stone-500 hover:text-[#005ea3] text-sm font-label transition-colors" href="#">AGB</a>
+<a class="text-[#5f5e5e] dark:text-stone-500 hover:text-[#005ea3] text-sm font-label transition-colors" href="#">Cookie Settings</a>
+</div>
+</div>
+</footer>
+</body></html>
