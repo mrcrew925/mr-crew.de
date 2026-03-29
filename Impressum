@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="de"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Impressum | MR-CREW Facility Management</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700;800;900&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "on-tertiary-container": "#fdfdfd",
+              "on-tertiary": "#ffffff",
+              "tertiary-fixed-dim": "#c6c6c7",
+              "surface-variant": "#e4e2e1",
+              "on-secondary-fixed": "#1b1c1c",
+              "inverse-primary": "#a1c9ff",
+              "secondary": "#5f5e5e",
+              "on-primary-fixed": "#001c37",
+              "on-secondary-fixed-variant": "#474746",
+              "surface-container-high": "#eae8e7",
+              "secondary-fixed": "#e5e2e1",
+              "surface-container-lowest": "#ffffff",
+              "secondary-fixed-dim": "#c8c6c5",
+              "surface-container-low": "#f6f3f2",
+              "surface-container": "#f0eded",
+              "on-primary-fixed-variant": "#00487f",
+              "surface-container-highest": "#e4e2e1",
+              "on-secondary": "#ffffff",
+              "on-surface": "#1b1c1c",
+              "tertiary-container": "#737575",
+              "surface-tint": "#0061a7",
+              "on-tertiary-fixed-variant": "#454747",
+              "surface-dim": "#dcd9d9",
+              "secondary-container": "#e2dfde",
+              "outline": "#717783",
+              "on-tertiary-fixed": "#1a1c1c",
+              "on-error": "#ffffff",
+              "inverse-surface": "#303030",
+              "on-primary": "#ffffff",
+              "on-background": "#1b1c1c",
+              "primary-fixed-dim": "#a1c9ff",
+              "on-secondary-container": "#636262",
+              "outline-variant": "#c0c7d3",
+              "primary-container": "#0077cc",
+              "surface-bright": "#fbf9f8",
+              "primary-fixed": "#d2e4ff",
+              "tertiary-fixed": "#e2e2e2",
+              "background": "#fbf9f8",
+              "on-primary-container": "#fdfcff",
+              "error": "#ba1a1a",
+              "inverse-on-surface": "#f3f0f0",
+              "surface": "#fbf9f8",
+              "on-error-container": "#93000a",
+              "on-surface-variant": "#404752",
+              "tertiary": "#5b5c5d",
+              "primary": "#005ea3",
+              "error-container": "#ffdad6"
+            },
+            fontFamily: {
+              "headline": ["Work Sans"],
+              "body": ["Inter"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+      .blue-blueprint-bg {
+        background-image: linear-gradient(to right, rgba(192, 199, 211, 0.1) 1px, transparent 1px),
+                          linear-gradient(to bottom, rgba(192, 199, 211, 0.1) 1px, transparent 1px);
+        background-size: 40px 40px;
+      }
+    </style>
+</head>
+<body class="bg-surface font-body text-on-surface antialiased">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-white/80 dark:bg-stone-900/80 backdrop-blur-md shadow-sm dark:shadow-none font-['Work_Sans'] font-medium antialiased">
+<div class="flex justify-between items-center px-8 py-4 max-w-7xl mx-auto">
+<div class="flex items-center gap-4">
+<img alt="MR-CREW Logo" class="h-10 w-auto" data-alt="high-contrast minimalist black and white professional corporate logo for facility management company MR-CREW" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD8XiCbfHnrGCZFSpzU4Busy19nqPXEB-FoCu1ayAmJZX57IwDcBsF_dqFEob2VyhW6GCiXd8NKUja_McYXJhv2OZ2IZaBNoZL8U5LruJitcZAfEXxJqY5I2p2zMylFGKkRKPxTfUmu97Ur4UjNCbm2S6vCiw13UHrLT0VhgWvDbc-j0nRWQk8stVMwPWQ8Mx0-YcGNvXRvBwubBX-CLXrXcm6v8dMt7s4mlcKsVdfZfotjpSTjLIwk3IoG97RRggw-tDDU0-ONOJk"/>
+<span class="text-2xl font-black tracking-tighter text-stone-900 dark:text-stone-50 uppercase">MR-CREW</span>
+</div>
+<div class="hidden md:flex gap-8">
+<a class="text-stone-600 dark:text-stone-400 hover:text-blue-600 dark:hover:text-blue-300 transition-colors" href="#">Home</a>
+<a class="text-stone-600 dark:text-stone-400 hover:text-blue-600 dark:hover:text-blue-300 transition-colors" href="#">Services</a>
+<a class="text-stone-600 dark:text-stone-400 hover:text-blue-600 dark:hover:text-blue-300 transition-colors" href="#">Contact</a>
+</div>
+<div class="flex items-center">
+<button class="bg-gradient-to-br from-primary to-primary-container text-on-primary px-6 py-2.5 rounded hover:opacity-80 transition-opacity duration-300 font-headline font-bold text-sm tracking-tight active:scale-95 duration-150">
+                    Get a Quote
+                </button>
+</div>
+</div>
+</nav>
+<main class="pt-32 pb-24 min-h-screen relative overflow-hidden">
+<!-- Background Branding Watermark -->
+<div class="absolute -top-20 -right-20 opacity-[0.03] pointer-events-none select-none">
+<span class="text-[20rem] font-black tracking-tighter uppercase">CREW</span>
+</div>
+<div class="max-w-7xl mx-auto px-8 relative z-10">
+<!-- Hero Header -->
+<div class="mb-20">
+<span class="font-label uppercase tracking-widest text-primary font-semibold text-xs mb-4 block">Rechtliche Hinweise</span>
+<h1 class="font-headline text-6xl md:text-7xl font-black text-on-surface tracking-tighter leading-none mb-8">
+                    Impressum
+                </h1>
+<div class="w-24 h-2 bg-primary"></div>
+</div>
+<!-- Content Grid: Asymmetric Layout -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+<!-- Main Legal Columns -->
+<div class="lg:col-span-8 space-y-20">
+<!-- Section: TMG -->
+<section class="p-12 bg-surface-container-low relative group">
+<div class="absolute top-0 left-0 w-1 h-full bg-primary opacity-20 group-hover:opacity-100 transition-opacity"></div>
+<h2 class="font-headline text-3xl font-extrabold mb-8 tracking-tight">Angaben gemäß § 5 TMG</h2>
+<div class="space-y-6 text-lg leading-relaxed text-on-surface-variant">
+<div>
+<p class="font-label text-xs uppercase text-secondary font-bold tracking-widest mb-1">Inhaber</p>
+<p class="text-on-surface font-semibold text-xl">Sadiye Kader Roncevic</p>
+</div>
+<div>
+<p class="font-label text-xs uppercase text-secondary font-bold tracking-widest mb-1">Anschrift</p>
+<p class="text-on-surface">Ginsterweg 5<br/>32049 Herford</p>
+</div>
+</div>
+</section>
+<!-- Section: Kontakt -->
+<section class="grid grid-cols-1 md:grid-cols-2 gap-px bg-outline-variant/15">
+<div class="p-12 bg-surface-container-high">
+<h2 class="font-headline text-2xl font-extrabold mb-6 tracking-tight">Kontakt</h2>
+<div class="space-y-4">
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-primary" data-icon="call">call</span>
+<div>
+<p class="font-label text-xs uppercase text-secondary font-bold tracking-widest">Telefon</p>
+<p class="text-on-surface text-lg">05221-7612509</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-primary" data-icon="mail">mail</span>
+<div>
+<p class="font-label text-xs uppercase text-secondary font-bold tracking-widest">E-Mail</p>
+<p class="text-on-surface text-lg">info@mr-crew.de</p>
+</div>
+</div>
+</div>
+</div>
+<div class="p-12 bg-surface-container-highest flex flex-col justify-end">
+<p class="text-on-surface-variant italic mb-4">"Präzision in jeder Facette des Facility Managements."</p>
+<span class="font-label text-xs font-bold uppercase tracking-tighter text-primary">MR-CREW Standards</span>
+</div>
+</section>
+<!-- Section: Verantwortlich -->
+<section class="p-12 bg-surface-container-low border-l-4 border-primary/10">
+<h2 class="font-headline text-2xl font-extrabold mb-6 tracking-tight">Verantwortlich für den Inhalt</h2>
+<p class="font-label text-xs uppercase text-secondary font-bold tracking-widest mb-2">nach § 55 Abs. 2 RStV</p>
+<p class="text-xl font-semibold text-on-surface">Sadiye Kader Roncevic</p>
+<p class="text-on-surface-variant mt-2">Ginsterweg 5, 32049 Herford</p>
+</section>
+</div>
+<!-- Sidebar Metadata -->
+<aside class="lg:col-span-4 space-y-8">
+<div class="bg-primary p-8 text-on-primary">
+<span class="material-symbols-outlined text-4xl mb-6" data-icon="gavel" style="font-variation-settings: 'FILL' 1;">gavel</span>
+<h3 class="font-headline text-2xl font-bold mb-4">Streitbeilegung</h3>
+<p class="text-on-primary-container text-sm leading-relaxed opacity-90">
+                            Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: <a class="underline hover:text-white transition-colors" href="https://ec.europa.eu/consumers/odr">https://ec.europa.eu/consumers/odr</a>.
+                            Unsere E-Mail-Adresse finden Sie oben im Impressum. Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.
+                        </p>
+</div>
+<div class="aspect-square bg-surface-container-high flex items-center justify-center relative overflow-hidden group">
+<div class="absolute inset-0 blue-blueprint-bg opacity-30"></div>
+<div class="relative text-center p-8">
+<span class="material-symbols-outlined text-6xl text-outline mb-4" data-icon="location_on">location_on</span>
+<p class="font-headline font-bold text-lg">Zentrale Herford</p>
+<p class="text-secondary text-sm">Präzise Planung vor Ort.</p>
+</div>
+</div>
+</aside>
+</div>
+</div>
+</main>
+<!-- Footer -->
+<footer class="w-full py-12 border-t border-stone-200/15 bg-stone-50 dark:bg-stone-950 font-['Inter'] text-sm tracking-wide">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8 px-8 max-w-7xl mx-auto items-start">
+<div>
+<span class="text-lg font-bold text-stone-900 dark:text-stone-100 block mb-4">MR-CREW</span>
+<p class="text-stone-500 max-w-xs leading-relaxed">
+                    Ihr Partner für erstklassiges Facility Management und Logistikdienstleistungen in Herford und Umgebung.
+                </p>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<div class="flex flex-col gap-3">
+<a class="text-stone-500 dark:text-stone-500 hover:text-stone-800 dark:hover:text-stone-200 hover:underline decoration-blue-500/30" href="#">Home</a>
+<a class="text-stone-500 dark:text-stone-500 hover:text-stone-800 dark:hover:text-stone-200 hover:underline decoration-blue-500/30" href="#">Services</a>
+</div>
+<div class="flex flex-col gap-3">
+<a class="text-blue-700 dark:text-blue-400 font-semibold hover:underline decoration-blue-500/30" href="#">Impressum</a>
+<a class="text-stone-500 dark:text-stone-500 hover:text-stone-800 dark:hover:text-stone-200 hover:underline decoration-blue-500/30" href="#">Datenschutz</a>
+</div>
+</div>
+<div class="md:text-right">
+<p class="text-stone-400 mb-2">Kontaktieren Sie uns</p>
+<p class="text-stone-900 dark:text-stone-100 font-bold">05221-7612509</p>
+<p class="text-stone-500 mt-8">© 2024 MR-CREW Facility Management. All rights reserved.</p>
+</div>
+</div>
+</footer>
+</body></html>
